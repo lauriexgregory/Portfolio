@@ -1,0 +1,711 @@
+/* General Styling - allover */
+body {
+    background-color: #F2F2F2;
+    margin: 0 auto;
+
+
+}
+
+@font-face {
+    font-family: "ashley";
+    src: url('fonts/Ashley-SemiBoldItalic.otf');
+    font-style: normal;
+    font-weight: 40;
+}
+
+@font-face {
+    font-family: "ashley";
+    src: url('fonts/Ashley-BoldItalic.otf');
+    font-style: normal;
+    font-weight: 60;
+}
+
+@font-face {
+    font-family: "ashley";
+    src: url('fonts/Ashley-SemiBold.otf');
+    font-style: normal;
+    font-weight: 20;
+}
+
+.part {
+    height: 100vh;
+}
+
+/* General Styling - allover end*/
+
+/*Index Styling*/
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+
+/* Nav area */
+header {
+    /* This */
+    position: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.about-header {
+    display: none;
+}
+
+
+.inner-main-menu {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.inner-main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.inner-main-menu ul li {
+    float: none;
+    display: inline-block;
+}
+
+.inner-main-menu ul li:nth-child(1) {
+    float: left;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.inner-main-menu ul li:nth-child(2) {
+    float: left;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.inner-main-menu ul li:nth-child(3) {
+    padding-right: 30px;
+}
+
+.inner-main-menu ul li a {
+    color: #666;
+    font-size: 1.2em;
+    font-weight: 40;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: "ashley";
+    letter-spacing: 3px;
+}
+
+.inner-main-menu ul li a:hover {
+    color: rgb(241, 148, 155);
+}
+
+#main-menu {
+    width: 100%;
+    position: relative;
+}
+
+.logo-spot {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: '';
+    margin-left: -50px;
+    padding-top: 10px;
+}
+
+/* Nav area end */
+
+/* Contact */
+.sticky-contact {
+    font-family: "ashley";
+    font-weight: 40;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 3px;
+    position: fixed;
+    bottom: 50px;
+    right: 5%;
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.sticky-contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-contact a {
+    text-decoration: none;
+}
+
+.sticky-contact a:hover {
+    color: #F1949B;
+}
+
+.sticky-contact a {
+    color: #666666;
+}
+
+/* Contact end */
+
+/* Index */
+
+
+.welcome {
+    position: absolute;
+    bottom: 50px;
+    left: 5%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #F1949B;
+    -webkit-text-stroke-width: 2.5px;
+    font-size: 5em;
+    font-family: "ashley";
+    font-weight: 60;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+}
+
+.logo {
+    width: 300px;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+/* Index end*/
+
+/* Projects */
+
+.projects-secondary-title-left {
+    text-align: left;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 2em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.projects-secondary-title-right {
+    text-align: right;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 2em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.projects-image-left {
+    margin-left: 10%;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.projects-image-left a {
+    position: absolute;
+    right: -15%;
+    top: 50%;
+}
+
+.projects-image-left .projects-secondary-title-left {
+    position: absolute;
+    bottom: -5%;
+    left: 5%;
+}
+
+.projects-image-right {
+    margin-right: 10%;
+    width: 50%;
+    position: relative;
+    float: right;
+}
+
+.projects-image-right a {
+    position: absolute;
+    left: -15%;
+    top: 50%;
+}
+
+.projects-image-right .projects-secondary-title-right {
+    position: absolute;
+    bottom: -5%;
+    right: 5%;
+}
+
+.pad {
+    margin-bottom: 10%;
+}
+
+.pad h2 {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    font-family: "ashley";
+    font-weight: 40px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 3px;
+    background-color: #F2C8CB;
+    padding: 10px 20px;
+    width: 150px;
+    box-sizing: border-box;
+    border-top: 20px;
+}
+
+
+.img-bord-r {
+    width: 100%;
+    transform: translate(30px, 0)
+}
+
+/* Case Studies */
+
+.main-title-case-study {
+    text-align: right;
+    display: block;
+    top: 80px;
+    right: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2.5px;
+    font-size: 4em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 7px 5px #F2C8CB;
+    text-transform: lowercase;
+}
+
+.main-title {
+    text-align: right;
+    display: block;
+    top: 80px;
+    right: 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2.5px;
+    font-size: 4em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 7px 5px #F2C8CB;
+    text-transform: lowercase;
+}
+
+.secondary-title {
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 3.5em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 5px 3.5px #F2C8CB;
+    text-transform: lowercase;
+}
+
+.case-study-text {
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: "ashley";
+    font-weight: 20;
+    color: #666;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.img-bord img {
+    width: 100%;
+}
+
+.img-bord {
+    width: 100%;
+    transform: translate(-30px, 0)
+}
+
+.out {
+    padding: 30px 0 30px 0;
+    background-color: #F2C8CB;
+}
+
+.cover-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.square {
+    width: 30%;
+}
+
+.square:nth-child(1) {
+    margin-right: 50px;
+}
+
+.secondary-image {
+    width: 50%;
+}
+
+.tertiary-image {
+    width: 50%;
+}
+
+.case-study-button {
+    font-family: "ashley";
+    font-weight: 40;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 3px;
+    background-color: #F2C8CB;
+    padding: 10px 20px;
+    width: 200px;
+    box-sizing: border-box;
+    border-top: 20px;
+    
+}
+
+.next {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Case Studies end */
+
+/* About */
+.pic-of-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.header {
+    float: left;
+    padding-left: 10%;
+    padding-right: 10px;
+    display: ;
+    margin: 0 auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 4.5em;
+    font-family: "ashley";
+    font-weight: 40;
+    letter-spacing: 5px;
+    text-shadow: 5px 3.5px #F2C8CB;
+    text-transform: lowercase;
+}
+
+.last-p {
+    padding-bottom: 15px;
+}
+
+.about-text {
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: "ashley";
+    font-weight: 20;
+    color: #666;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Hire Me */
+.wrapper {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 7%;
+    padding-left: 10%;
+}
+
+.box {
+    padding: 1em;
+}
+
+.container {
+    height: 100px;
+}
+
+.cv-title-left {
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 3em;
+    font-family: "ashley";
+    font-weight: 40;
+    letter-spacing: 5px;
+    text-shadow: 5px 3.5px #F2C8CB;
+    text-transform: lowercase;
+}
+
+.cv-title-right {
+    text-align: right;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 2px;
+    font-size: 3em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-shadow: 5px 3.5px #F2C8CB;
+    text-transform: lowercase;
+    padding-left: 10%;
+}
+
+.cv-secondary-title-left {
+    text-align: left;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgb(241, 148, 155);
+    -webkit-text-stroke-width: 1px;
+    font-size: 1.3em;
+    font-family: "ashley";
+    font-weight: 40;
+    margin: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.cv-tertiary-title-left {
+    text-align: justify;
+    font-size: 1em;
+    font-family: "ashley";
+    font-weight: 20;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.cv-text {
+    font-size: 1.2em;
+    font-family: "ashley";
+    font-weight: 20;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.cv-button {
+    font-family: "ashley";
+    font-weight: 40;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 3px;
+    background-color: #F2C8CB;
+    padding: 10px 20px;
+    width: 140px;
+    box-sizing: border-box;
+    border-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: inherit;
+}
+
+.space {
+    margin-bottom: 100px;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .projects-image-right a {
+        position: absolute;
+        left: -30%;
+        top: 50%;
+    }
+
+    .projects-image-left a {
+        position: absolute;
+        right: -30%;
+        top: 50%;
+    }
+
+}
+
+
+
+
+@media (max-width: 450px) {
+    
+    .sticky-contact {
+        bottom: 20px;
+    }
+
+    /* Home */
+    .welcome {
+        font-size: 35px;
+        -webkit-text-stroke-width: 1.5px;
+        bottom: 20px;
+
+    }
+
+
+    /* Nav */
+    header {
+        /* This */
+        position: inherit;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+
+    .inner-main-menu ul li:nth-child(1) {
+        float: left;
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    .inner-main-menu ul li:nth-child(2) {
+        float: left;
+        display: inline-block;
+        padding-right: 15px;
+    }
+
+    .inner-main-menu ul li:nth-child(3) {
+        padding-right: 15px;
+    }
+
+    .logo-spot {
+        display: none;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 50%;
+        top: 0;
+        transform: translate(50%);
+    }
+
+    /* Port */
+    .projects-image-right a {
+        position: absolute;
+        left: -60%;
+        top: 50%;
+    }
+
+    .projects-image-left a {
+        position: absolute;
+        right: -60%;
+        top: 50%;
+    }
+
+    .out {
+        padding: 20px 0 20px 0;
+    }
+
+    .img-bord-r {
+        transform: translate(20px, 0)
+    }
+
+    .img-bord {
+        transform: translate(-20px, 0)
+    }
+
+    button {
+        font-family: "ashley";
+        font-weight: 40px;
+        font-size: 12px;
+        padding: 5px 10px;
+        width: 120px;
+        box-sizing: border-box;
+        border-top: 10px;
+    }
+
+    .projects-secondary-title-right {
+        font-size: 0.7em;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .projects-secondary-title-left {
+        font-size: 0.7em;
+        -webkit-text-stroke-width: 1px;
+    }
+
+
+    .main-title-case-study {
+        font-size: 2.2em;
+                -webkit-text-stroke-width: 1.7px;
+
+    }
+
+    .main-title {
+        font-size: 2.2em;
+                -webkit-text-stroke-width: 1.7px;
+
+    }
+
+    .secondary-title {
+        font-size: 2em;
+                -webkit-text-stroke-width: 1.7px;
+
+    }
+
+
+    /* Hire Me */
+
+    .wrapper {
+        display: block;
+
+    }
+
+
+
+
+}
